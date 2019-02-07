@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gravity HUB</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="style-coworking.css" rel="stylesheet">
+	<link href="style-events.css" rel="stylesheet">
+	<link href="style-downloads.css" rel="stylesheet">
+	<link href="style-about.css" rel="stylesheet">
+</head>
+
+<body>
+	<header id="header">
+		<img alt="logo" src="img/Logo-white.png" id="logo-img">
+	</header>
+	<!--Principal-->
+	<div class="menu">
+		<div class="box"></div>
+        <img id="ovni" src="img/ovni-01.png" onclick="window.location='/home.html'" >
+	</div>
+	<a onClick="makeUpScroll()"><div id="up-button"></div></a>
+	<a onClick="makeDownScroll()"><div id="down-button"></div></a>
+	<!--Coworking-->
+	<div class="header-space" id="coworking"></div>
+	<div class="tab">
+		<div class="table">
+			<div class="coworking-left-table">
+				<p class="title-table">Nuestro espacio</p>
+				<p class="text-table">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel ipsum eu tellus suscipit sollicitudin ut ut lectus. Mauris quis hendrerit lorem, nec tempus elit. Phasellus faucibus, elit vitae hendrerit pellentesque, magna quam elementum nisl, eu cursus enim lectus sagittis nisi. Suspendisse vestibulum et tellus sed consequat.</p>
+			</div>
+			<div class="coworking-right-table">
+				<div class="block-title-table">
+					<p class="title-table">Pase Diario</p>
+				</div>
+				<p class="block-text-table">BsS 5.000 / día \n IVA Incluído</p>
+				<p class="block-text-table">1 mes de uso de oficina compartida</p>
+				<p class="block-text-table">2 horas al mes de uso de sala privada de reuniones</p>
+				<p class="block-text-table">Estacionamiento incluido</p>
+				<p class="block-text-table">Difusión en nuestra red de contactos</p>
+				<div class="buttons">
+					<div class="button"></div>
+					<div class="button"></div>
+					<div class="button"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Events-->
+	<div class="header-space"></div>
+	<div class="tab">
+		<div class="table">
+			<div class="events-left-table">
+				<div class="card">
+					<div class="top-card"></div>
+					<div class="bottom-card"></div>
+				</div>
+				<div class="card">
+					<div class="top-card"></div>
+					<div class="bottom-card"></div>
+				</div>
+				<div class="card">
+					<div class="top-card">image</div>
+					<div class="bottom-card">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel ipsum eu tellus suscipit sollicitudin ut ut lectus. Mauris quis hendrerit lorem, nec tempus elit.</p>
+						<p class="events-date">05/03/2019</p>
+					</div>
+				</div>
+			</div>
+			<div class="events-rigth-table">
+				<p class="title-table">Eventos</p>
+				<p class="text-table">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel ipsum eu tellus suscipit sollicitudin ut ut lectus. Mauris quis hendrerit lorem, nec tempus elit. Phasellus faucibus, elit vitae hendrerit pellentesque, magna quam elementum nisl, eu cursus enim lectus sagittis nisi. Suspendisse vestibulum et tellus sed consequat.</p>
+			</div>
+		</div>
+	</div>
+	<!--Downloads-->
+	<div class="header-space"></div>
+	<div class="tab">
+		<div class="table">
+			<div class="downloads-table">
+				<p class="title-table">Zona de descargas para nuestros clientes, aliados y socios comerciales.</p>
+				<br>
+				<p class="downloads-text-table">Acá encontrarás el material necesario para conocer y conectar un poco más de cerca con nuestra marca.</p>
+				<p class="downloads-text-table">Gravity Hub es una marca de Gravity Business Ecosystem, C.A. y el uso de este material con fines comerciales debe ser autorizado por la empresa.</p>
+				<div class="downloads-img"><p class="title-table">Descargar</p></div>
+			</div>
+		</div>
+	</div>
+	<!--About Us-->
+	<div class="header-space"></div>
+	<div class="tab">
+		<div class="table">
+			<div class="about-table">
+				<div class="about-title">
+					<p>Acerca de Gravity Hub</p>
+				</div>
+				<div class="about-items-table">
+					<div class="about-item">
+						<img alt="" class="about-item-logo" src="icons/2x/baseline_arrow_forward_ios_black_18dp.png">
+						<p class="about-item-text">Gravity Hub es un espacio colaborativo que busca promover la cultura de la innovación y el emprendimiento (especialmente digital) en la Ciudad de Valencia, a través de una serie de productos y servicios orientados hacia necesidades como la interconexión humana, el aprendizaje y la experiencia colectiva.</p>
+					</div>
+					<div class="about-item">
+						<img alt="" class="about-item-logo" src="icons/2x/baseline_arrow_forward_ios_black_18dp.png">
+						<p class="about-item-text">Gravity Hub es un espacio colaborativo que busca promover la cultura de la innovación y el emprendimiento (especialmente digital) en la Ciudad de Valencia, a través de una serie de productos y servicios orientados hacia necesidades como la interconexión humana, el aprendizaje y la experiencia colectiva.</p>
+					</div>
+					<div class="about-item">
+						<img alt="" class="about-item-logo" src="icons/2x/baseline_arrow_forward_ios_black_18dp.png">
+						<p class="about-item-text">Gravity Hub es un espacio colaborativo que busca promover la cultura de la innovación y el emprendimiento (especialmente digital) en la Ciudad de Valencia, a través de una serie de productos y servicios orientados hacia necesidades como la interconexión humana, el aprendizaje y la experiencia colectiva.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+<script>
+	window.onscroll = function() {
+		scrollFunction()
+	};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+			document.getElementById("logo-img").style.height = "20vh";
+			document.getElementById("header").style.visibility = "visible";
+			document.getElementById("up-button").style.visibility = "visible";
+		} else {
+			document.getElementById("logo-img").style.height = "80vh";
+			document.getElementById("header").style.visibility = "hidden";
+			document.getElementById("up-button").style.visibility = "hidden";
+		}
+		
+		if (document.documentElement.scrollTop >= window.innerHeight*3+window.innerHeight/2 && document.documentElement.scrollTop <= window.innerHeight*4) {
+			document.getElementById("down-button").style.visibility = "hidden";
+		}else{
+			document.getElementById("down-button").style.visibility = "visible";
+		}
+	}
+	
+	function makeDownScroll() {
+		if (document.documentElement.scrollTop >= 0 && document.documentElement.scrollTop < window.innerHeight) {
+			document.documentElement.scrollTop = window.innerHeight;
+		}else if (document.documentElement.scrollTop >= 0 && document.documentElement.scrollTop < window.innerHeight*2) {
+			document.documentElement.scrollTop = window.innerHeight*2;
+		}else if (document.documentElement.scrollTop >= 0 && document.documentElement.scrollTop < window.innerHeight*3) {
+			document.documentElement.scrollTop = window.innerHeight*3;
+		}else if (document.documentElement.scrollTop >= 0 && document.documentElement.scrollTop < window.innerHeight*4) {
+			document.documentElement.scrollTop = window.innerHeight*4;
+		}
+	}
+	
+	function makeUpScroll() {
+		if (document.documentElement.scrollTop >= 0 && document.documentElement.scrollTop <= window.innerHeight) {
+			document.documentElement.scrollTop = 0;
+		}else if (document.documentElement.scrollTop >= window.innerHeight && document.documentElement.scrollTop <= window.innerHeight*2) {
+			document.documentElement.scrollTop = window.innerHeight;
+		}else if (document.documentElement.scrollTop >= window.innerHeight*2 && document.documentElement.scrollTop <= window.innerHeight*3) {
+			document.documentElement.scrollTop = window.innerHeight*2;
+		}else if (document.documentElement.scrollTop >= window.innerHeight*3 && document.documentElement.scrollTop <= window.innerHeight*4) {
+			document.documentElement.scrollTop = window.innerHeight*3;
+		}
+	}
+	
+</script>
+</html>
