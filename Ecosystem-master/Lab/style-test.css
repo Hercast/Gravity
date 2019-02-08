@@ -1,0 +1,28 @@
+@charset "utf-8";
+.test-content{
+    height: 90%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1vh 2vh;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.test-card{
+    width: 30%;
+    height: 40%;
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}

@@ -69,9 +69,8 @@
     position: absolute;
     left: 27vw;
     top: -33vw;
-    padding: 1vw;
+    padding: 0.5vh;
     width: 100px;
-    height: 25px;
     border-radius: 5%;
     background-color: rgba(162, 90, 29, 0.3);
     font-size: 3vw;
@@ -92,9 +91,8 @@
     position: absolute;
     left: -20px;
     top: 105px;
-    padding: 1vw;
+    padding: 0.5vh;
     width: 120px;
-    height: 135px;
     border-radius: 5%;
     background-color: rgba(71, 18, 124, 0.26);
     font-size: 3vw;
@@ -119,7 +117,6 @@
     top: 150px;
     padding: 0.5vh;
     width: 120px;
-    height: 135px;
     border-radius: 5%;
     background-color: rgba(18, 124, 34, 0.26);
     font-size: 12px;
@@ -146,43 +143,27 @@
 
 
     #Circle1 {
-        position: absolute;
-        left: 10%;
-        top: 20%;
         width: 25%;
         padding-bottom: 25%;
-        border-radius: 50%;
     }
 
     #Circle2 {
-        position: absolute;
         left: 55%;
-        top: 30%;
         width: 35%;
         padding-bottom: 35%;
-        border-radius: 50%;
     }
 
     #Circle3 {
-        position: absolute;
         left: 26%;
-        top: 60%;
-        background-image: -webkit-gradient(linear, left top, right top, from(#c2538a), to(#55217a));
-        background-image: linear-gradient(90deg, #c2538a, #55217a);
         width: 20%;
         padding-bottom: 20%;
-        border-radius: 50%;
-        z-index: 3;
-
     }
 
     #InfoHub {
         left: 15vh;
         top: -130px;
         width: 240px;
-        height: 150px;
         font-size: 12px;
-
     }
 
     #InfoLab {
@@ -190,16 +171,14 @@
         top: 16vh;
         padding: 0.5vh;
         width: 120px;
-        height: 135px;
         font-size: 12px;
     }
 
     #InfoSchool {
         left: 12px;
         top: 29vh;
-        padding: 0.5;
+        padding: 0.5vh;
         width: 120px;
-        height: 135px;
         font-size: 12px;
     }
 
@@ -213,42 +192,27 @@
 
 
     #Circle1 {
-        position: absolute;
-        left: 10%;
-        top: 20%;
         width: 20%;
         padding-bottom: 20%;
-        border-radius: 50%;
     }
 
     #Circle2 {
-        position: absolute;
         left: 55%;
-        top: 30%;
         width: 30%;
         padding-bottom: 30%;
-        border-radius: 50%;
     }
 
     #Circle3 {
-        position: absolute;
         left: 27%;
-        top: 60%;
-        background-image: -webkit-gradient(linear, left top, right top, from(#c2538a), to(#55217a));
-        background-image: linear-gradient(90deg, #c2538a, #55217a);
         width: 15%;
         padding-bottom: 15%;
-        border-radius: 50%;
-
     }
 
     #InfoHub {
         left: 17vw;
         top: -135px;
         width: 240px;
-        height: 150px;
         font-size: 12px;
-
     }
 
     #InfoLab {
@@ -256,16 +220,14 @@
         top: 16vh;
         padding: 0.5vh;
         width: 120px;
-        height: 135px;
         font-size: 12px;
     }
 
     #InfoSchool {
         left: 12px;
         top: 35vh;
-        padding: 0.5;
+        padding: 0.5vh;
         width: 200px;
-        height: 93px;
     }
 
 }
@@ -274,43 +236,27 @@
 @media only screen and (min-width: 768px) {
 
     #Circle1 {
-        position: absolute;
-        left: 10%;
-        top: 20%;
         width: 17%;
         padding-bottom: 17%;
-        border-radius: 50%;
     }
 
     #Circle2 {
-        position: absolute;
         left: 55%;
-        top: 30%;
         width: 27%;
         padding-bottom: 27%;
-        border-radius: 50%;
     }
 
     #Circle3 {
-        position: absolute;
         left: 28%;
-        top: 60%;
-        background-image: -webkit-gradient(linear, left top, right top, from(#c2538a), to(#55217a));
-        background-image: linear-gradient(90deg, #c2538a, #55217a);
         width: 12%;
         padding-bottom: 12%;
-        border-radius: 50%;
-
-
     }
 
     #InfoHub {
         left: 17vw;
         top: -130px;
         width: 240px;
-        height: 150px;
         font-size: 12px;
-
     }
 
     #InfoLab {
@@ -318,16 +264,14 @@
         top: 16vh;
         padding: 0.5vh;
         width: 120px;
-        height: 135px;
         font-size: 12px;
     }
 
     #InfoSchool {
         left: 12px;
         top: 44vh;
-        padding: 0.5;
+        padding: 0.5vh;
         width: 200px;
-        height: 93px;
     }
 
 }
@@ -336,39 +280,26 @@
 @media only screen and (min-width: 992px) {
 
     #Circle1 {
-        position: absolute;
-        left: 10%;
-        top: 20%;
         width: 12%;
         padding-bottom: 12%;
-        border-radius: 50%;
     }
 
     #Circle2 {
-        position: absolute;
         left: 60%;
-        top: 30%;
         width: 22%;
         padding-bottom: 22%;
-        border-radius: 50%;
     }
 
     #Circle3 {
-        position: absolute;
         left: 30%;
-        top: 60%;
-        background-image: -webkit-gradient(linear, left top, right top, from(#c2538a), to(#55217a));
-        background-image: linear-gradient(90deg, #c2538a, #55217a);
         width: 10%;
         padding-bottom: 10%;
-        border-radius: 50%;
     }
 
     #InfoHub {
         left: 17vw;
         top: -130px;
         width: 240px;
-        height: 150px;
         font-size: 12px;
     }
 
@@ -377,7 +308,6 @@
         top: 16vh;
         padding: 0.5vh;
         width: 120px;
-        height: 135px;
         font-size: 12px;
     }
 
@@ -387,39 +317,26 @@
 @media only screen and (min-width: 1200px) {
 
     #Circle1 {
-        position: absolute;
-        left: 10%;
-        top: 20%;
         width: 12%;
         padding-bottom: 12%;
-        border-radius: 50%;
     }
 
     #Circle2 {
-        position: absolute;
         left: 65%;
-        top: 30%;
         width: 22%;
         padding-bottom: 22%;
-        border-radius: 50%;
     }
 
     #Circle3 {
-        position: absolute;
         left: 35%;
-        top: 60%;
-        background-image: -webkit-gradient(linear, left top, right top, from(#c2538a), to(#55217a));
-        background-image: linear-gradient(90deg, #c2538a, #55217a);
         width: 10%;
         padding-bottom: 10%;
-        border-radius: 50%;
     }
 
     #InfoHub {
         left: 17vw;
         top: -130px;
         width: 300px;
-        height: 150px;
         font-size: 12px;
     }
 
@@ -428,16 +345,14 @@
         top: 14vh;
         padding: 0.5vh;
         width: 120px;
-        height: 135px;
         font-size: 12px;
     }
 
     #InfoSchool {
         left: 12px;
         top: 48vh;
-        padding: 0.5;
+        padding: 0.5vh;
         width: 200px;
-        height: 93px;
     }
 
 }

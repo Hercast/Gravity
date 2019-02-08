@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+.begin-table{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.begin-title{
+    height: 10%;
+    width: 100%;
+    color: aliceblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 4vh;
+}
+.begin-content{
+    height: 90%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1vh 2vh;
+}
+.card{
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 10px 0px black;
+            box-shadow: 0px 0px 10px 0px black;
+}
+.card-top{
+    width: 100%;
+    height: 70%;
+    background: #cecece;
+    border-radius: 20px 20px 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.card-bot{
+    width: 100%;
+    height: 30%;
+    background: #0b0b0b;
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
