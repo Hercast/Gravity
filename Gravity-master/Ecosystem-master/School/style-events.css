@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+.mission{
+    padding-top:4rem;
+    padding-bottom:5rem;
+    background:linear-gradient(35deg,#195c3a 80%,#403e3e);
+    
+}
+
+.mission:after{
+    left: 50%;
+    height: 3px;
+    width: 50px;
+    content: " ";
+    bottom: -35px;
+    margin-left: -25px;
+    position: absolute;
+    background: #f2e9e9;
+    
+}
+
+.headingM {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.headingM:after {
+    left: 50%;
+    height: 3px;
+    width: 50px;
+    content: " ";
+    bottom: -35px;
+    margin-left: -25px;
+    position: absolute;
+    background: #efe6e6;
+}
+
+.headingM h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    color: #444;
+}
+
+.headingM p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #8693a7;
+}
+
+/* BOXES */
+
+.state{
+    
+    color:white;
+    padding-left:3rem;
+    align-content: center;
+    justify-content: center;
+    text-align:justify;
+    
+}
+
+.stateImg{
+    
+    position: relative;
+    display:block;
+    padding-right:3rem;
+   
+    
+}
+
+.stateImg img{
+    
+    border-radius: 2%;
+}
+
+
+
