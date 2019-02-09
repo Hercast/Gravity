@@ -20,14 +20,12 @@
 	z-index: 10000;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
-    
 }
 #logo-img{
 	height: 80vh;
 	visibility: visible;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
-    max-height:300px;
 }
 .menu{
 	width: 100%;
@@ -43,7 +41,7 @@
 	width: 100%;
 	height: 10vh;  
 	background: -webkit-gradient(linear,left top, left bottom,from(#e13fef),to(#440671));  
-	background: linear-gradient(-180deg,#e13fef,#440671);
+	background: linear-gradient(-180deg,#2aa23c,#14623b);
 	border-radius: 50%/100px 100px 0 0;
 }
 
@@ -152,8 +150,4 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #8693a7;
-}
-.logo{
-    
-    
 }
