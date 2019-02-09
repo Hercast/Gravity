@@ -20,12 +20,14 @@
 	z-index: 10000;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
+    
 }
 #logo-img{
 	height: 80vh;
 	visibility: visible;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
+    max-height:300px;
 }
 .menu{
 	width: 100%;
@@ -150,4 +152,8 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #8693a7;
+}
+.logo{
+    
+    
 }
